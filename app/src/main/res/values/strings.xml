@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TriviaMultilenguaje</string>
+    <string name="login">Welcome, you wanna play?</string>
+    <string name="loginuser">Give me your name</string>
+    <string name="loginbutton">Start</string>
+
+    <string name="number">1/3</string>
+    <string name="question1">When was the first commercial version was released?</string>
+    <string name="question2">Which folders are the most important in an Android Studio? Prject</string>
+    <string name="question3">The SDK FLUTTER only allows one coding language, which one?</string>
+
+    <string name="buttonagain">Play again</string>
+</resources>

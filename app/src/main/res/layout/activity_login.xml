@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:src="@drawable/trivia"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginBottom="30dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/login"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="34dp"
+                        android:textStyle="bold"
+                        />
+                    <EditText
+                        android:id="@+id/user"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="30dp"
+                        android:backgroundTint="@color/white"
+                        android:drawableLeft="@drawable/ic_baseline_person_24"
+                        android:hint="@string/loginuser"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/gray8e9"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="30dp"
+                        />
+                    <Button
+                        android:id="@+id/button_login"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:backgroundTint="@color/yellowffb"
+                        android:text="@string/loginbutton"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dafne Aquino Rodríguez - 20166326"
+                        android:textAlignment="center"
+                        android:textColor="@color/gray8e9"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="17dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Omar Velasco Guzman - 20166655"
+                        android:textAlignment="center"
+                        android:textColor="@color/gray8e9"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="17dp"
+                        />
+
+                    
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</layout>

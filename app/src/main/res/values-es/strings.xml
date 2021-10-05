@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">TriviaMultilenguaje</string>
+        <string name="login">Bienvenido, quieres jugar?</string>
+        <string name="loginuser">Introduce tu nombre</string>
+        <string name="loginbutton">Empezar</string>
+
+        <string name="number">1/3</string>
+        <string name="question1">¿Cuando se publicó la primera versión Android?</string>
+        <string name="question2">Qué carpetas so las más importantes en un projecto de Android Studio?</string>
+        <string name="question3">El SDK FLUTTER solo permite un lenguage, cuál es?</string>
+
+        <string name="buttonagain">Jugar nuevamente</string>
+
+</resources>
+
+
